@@ -1,4 +1,5 @@
 #summary how to use this script
+#labels Phase-Deploy
 = Setup =
 
 Before you proceed you should check if the tdom library is installed in your TCL library.
@@ -16,7 +17,6 @@ Without tdom the script will not load. More information about tdom can be found 
 !etqwstats <accountname> weapons <weapon> (public)
 
 !etqwstats <accountname> class <class> (public)
-
 
 
 
