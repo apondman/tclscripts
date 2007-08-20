@@ -1,13 +1,23 @@
-#summary One-sentence summary of this page.
+#summary how to use this script
+= Setup =
 
-= Introduction =
+Before you proceed you should check if the tdom library is installed in your TCL library.
+Without tdom the script will not load. More information about tdom can be found [http://www.tdom.org/ here].
 
-Add your content here.
+  # Copy the script to your bot's /scripts directory
+  # Edit your bot's config file and add:  source scripts/<scriptname>.tcl
+  # Rehash the bot (.rehash in telnet/dcc)
+  # Activate etqwstats for each channel with: .chanset #<channel> +etqwstats (in telnet/dcc)
+
+= Usage=
+
+!etqwstats <accountname> (public)
+
+!etqwstats <accountname> weapons <weapon> (public)
+
+!etqwstats <accountname> class <class> (public)
 
 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+
+
